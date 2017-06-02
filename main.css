@@ -1,0 +1,202 @@
+/* Try to use a liquid layout - pg. 385 and the 960 Grid layout pg. 391 */
+/* pg. 445 for example of naming layouts */
+
+/****************
+GENERAL
+****************/
+#font-face {
+    font-family: 'quicksandregular';
+    src: url('quicksand-regular-webfont.woff2') format('woff2'),
+         url('quicksand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    /* could not get the font-face to work. Try again later, pg. 278, www.fontsquirrel.com */
+}
+
+/****************
+HEADER
+****************/
+
+h1, h2, h3, h4 {
+  font-family: quicksandregular, helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 7px lightpink
+}
+
+/****************
+BODY
+****************/
+
+body {
+  font-family: 'quicksandregular', helvetica, verdana, arial, sans-serif;
+   /*background: white url("imagines/bricks.jpg") repeat;*/
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: 1.4em;
+  word-spacing: 0.2em;
+  text-decoration: none;
+  text-align: center;
+  max-width: 90%;
+  margin: 10px;
+}
+
+
+ul{
+  list-style-type: none;
+  list-style-position: outside;
+}
+div.five {
+  text-align: left;
+  float: right;
+}
+form.zero {
+  text-align: left;
+}
+
+aside {
+  float: left;
+  max-width: 30%;
+  border-width: thick;
+  border-style: double;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 10 auto 10 auto;  
+}
+
+p.aboutme:first-line{
+  font-weight: bold;
+}
+/* learn more about floating photos on pg. 411 */
+
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+  padding-right: 20px;
+}
+div.nav {
+  width: 750px
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: auto;
+}
+
+figurecaption.hide {
+  display: none;
+}
+.hide {
+  display: none;
+  opacity: 0.5;
+  display: none;
+}
+
+fieldset {
+  width: 350px;
+  border: 1px double;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: right;
+  margin: 20px;
+  line-height: 1.6em;
+}
+/* learn more about fixing the fieldset and legend pg. 351 example */
+
+legend {
+  border: 1px double;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#body {
+	max-width: 60%;
+	float: right;
+	margin: 0 auto 0 auto;
+	padding: 10px;
+}
+
+article {
+  border: 2px double #ee3e80;
+  border-radius: 10px;
+}
+
+article p {
+  text-transform: none;
+}
+/****************
+FOOTER
+****************/
+
+footer {
+  clear: none;
+}
+
+/****************
+COLORS
+****************/
+body {
+  color: #313B74;
+}
+
+h1, h2, h3, h4 {
+  color: #ee3e80;
+}
+
+table.occupation {
+  color: lightgrey;
+}
+
+aside {
+  background-color: white;
+  border-color: #ee3e80;
+  color: black;
+}
+
+div.funnier {
+  border-color: #ee3e80;
+  background-color: white;
+}
+
+a:link {
+  color: #FF6F00;
+}
+
+a:hover {
+  color: #FF6F00;
+}
+
+a:visited {
+  color: #darkcyan;
+}
+
+a:active {
+  color: darkcyan;
+}
+
+.hide {
+  color: darkgrey;
+  background-color: black;
+}
+
+fieldset {
+  border-color: #dcdcdc;
+  background-color: white;
+}
+
+legend {
+  background-color: #efefef;
+  border-color: #dcdcdc;
+}
+
+
