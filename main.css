@@ -23,6 +23,13 @@ h1, h2, h3, h4 {
   text-shadow: 2px 2px 7px lightpink
 }
 
+article h3 {
+  font-family: quicksandregular, helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: none;
+}
+
 /****************
 BODY
 ****************/
@@ -129,6 +136,7 @@ legend {
 article {
   border: 2px double #ee3e80;
   border-radius: 10px;
+  margin: 10px 0;
 }
 
 article p {
@@ -151,6 +159,14 @@ body {
 
 h1, h2, h3, h4 {
   color: #ee3e80;
+}
+
+article h3 {
+  color: black;
+}
+
+article p {
+  color: black;
 }
 
 table.occupation {
